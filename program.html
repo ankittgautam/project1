@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Program-Event Management</title>
+    <!--bootstrap css-->
+    <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+    crossorigin="anonymous"
+    />
+  <!--my css-->
+  <link rel="stylesheet" href="css/project.css">
+  <!--icon-->
+  <link rel="icon" href="img/eml.png">
+  <!-- font awesome link -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+  <!-- javascript link -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+</head>
+<body onload="myFunction()">
+  <div id="loading"></div>
+  <nav class="navbar navbar-expand-md navbar-dark bg-info fixed-top">
+    <div class="container-fluid">
+      <a href="" class="navbar-brand">
+        <img src="img/eml.png" class="weblogo">
+        <img src="img/b.png" class="moblogo">
+      </a>
+      <!--moblie view-->
+      <button class="navbar-toggler" data-bs-target="#a" data-bs-toggle="collapse">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+  
+      <!--menu -->
+      <div class="navbar-collapse collapse" id="a">
+      <ul class="navbar-nav ms-auto c">
+        <li ><a href="home.html" class="nav-link">HOME</a></li>
+        <li><a href="program.html" class="nav-link">PROGRAM</a></li>
+        <li><a href="team.html" class="nav-link">TEAM</a></li>
+        <li><a href="contact.html" class="nav-link">CONTACT US</a></li>
+      </ul>
+      </div> 
+    </div><!-- container-fluid end--> 
+  </nav>
+  <!-- image start -->
+  <div class="card"> 
+    <img src="https://e1.pxfuel.com/desktop-wallpaper/878/87/desktop-wallpaper-2300-wedding-hall-and-stock-wedding-hall.jpg" alt="" class="w-100">
+    <div class="img-title">
+      <h2 class="fw-bold">program</h2>
+    </div>
+  </div>
+  <!-- image end -->
+  <!-- Engagement Start -->
+  <div class="container-fluid prg">
+     <div class="container pt-5">
+    <h1 class="text-center fw-bold wp">Ring Ceremony Program</h1>
+    <hr>
+    <div class="row py-5">
+      <div class="col-md-4 py-4">
+         <div class="card shadow program">
+           <div class="inner">
+             <img src="https://images.shaadisaga.com/shaadisaga_production/photos/pictures/000/808/738/new_medium/IMG_3652.JPG?1554964537" alt="" class="w-100">
+           </div>
+           <div class="card-body">
+            <h2 class="fw-bold text-center">Engagement Function</h2>
+            <hr>
+            <div class="d-flex justify-content-center text-center pl-5">
+              <small class="border-end me-3 pe-3">
+                 <i class="fa-solid fa-hotel ms-3"></i>
+                 <span class="ms-1">Hall</span>
+              </small>
+              <small class="border-end me-3 pe-3">
+                <i class="fa-solid fa-video ms-3"></i>
+                <span class="ms-1">Camera</span>
+              </small>
+              <small>
+                <i class="fa-solid fa-drum ms-3"></i>
+                <span class="ms-1">Dance</span>
+              </small>
+            </div>
+            <p class="fs-4 text-center">Want to See More<br> Click Here....</p>
+            <div class="input-group">
+              <input type="text" class="form-control form-control-lg" placeholder="Enter your Location" >
+              <button class="btn text-white btn-warning">Book Now</button>
+            </div>
+           </div>
+         </div>
+      </div>
+      <div class="col-md-4 py-4">
+        <div class="card shadow program2">
+          <div class="inner">
+            <img src="https://media.istockphoto.com/id/650647718/photo/catering-food-wedding-event-table.jpg?b=1&s=170667a&w=0&k=20&c=auGbQ5sKXhhBu8NLkyK8Yt8TovKlLopMXyY-Kh_l4_c=" alt="" class="w-100">
+          </div>
+          <div class="card-body">
+           <h2 class="fw-bold text-center">Dinner</h2>
+           <hr>
+           <div class="d-flex justify-content-center text-center pl-5">
+             <small class="border-end me-3 pe-3">
+               <i class="fa-solid fa-hotel ms-3"></i>
+                <span class="ms-1">Hall</span>
+             </small>
+             <small class="border-end me-3 pe-3">
+               <i class="fa-solid fa-video ms-3"></i>
+               <span class="ms-1">Camera</span>
+             </small>
+             <small>
+               <i class="fa-solid fa-drum ms-3"></i>
+               <span class="ms-1">Dance</span>
+             </small>
+           </div>
+            <p class="fs-4 text-center">Want to See More<br> Click Here....</p>
+           <div class="input-group">
+             <input type="text" class="form-control form-control-lg" placeholder="Enter your Location" >
+             <button class="btn text-white btn-danger">Book Now</button>
+           </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 py-4">
+      <div class="card shadow program3">
+        <div class="inner">
+          <img src="https://shaadiwish.com/blog/wp-content/uploads/2020/05/candid-family-photos.jpg" alt="" class="w-100">
+        </div>
+        <div class="card-body">
+         <h2 class="fw-bold text-center">Photo Shoot</h2>
+         <hr>
+         <div class="d-flex justify-content-center text-center pl-5">
+           <small class="border-end me-3 pe-3">
+             <i class="fa-solid fa-hotel ms-3"></i>
+              <span class="ms-1">Hall</span>
+           </small>
+           <small class="border-end me-3 pe-3">
+             <i class="fa-solid fa-video ms-3"></i>
+             <span class="ms-1">Camera</span>
+           </small>
+           <small>
+             <i class="fa-solid fa-drum ms-3"></i>
+             <span class="ms-1">Party</span>
+           </small>
+         </div>
+         <p class="fs-4 text-center">Want to See More<br> Click Here....</p>
+         <div class="input-group">
+          <input type="text" class="form-control form-control-lg" placeholder="Enter your Location" >
+          <button class="btn text-white btn-danger">Book Now</button>
+        </div>
+        </div>
+      </div>
+      </div>
+    </div>
+     </div>
+  </div>
+  <!-- Engagement End-->
+  
+  <!-- wedding program start -->
+  <div class="container-fluid prg2">
+     <div class="container pt-5">
+    <h1 class="text-center fw-bold wp">Wedding Program</h1>
+    <hr>
+    <div class="row py-5">
+      <div class="col-md-4 py-4">
+         <div class="card shadow program">
+           <div class="inner">
+             <img src="https://images.pexels.com/photos/12153938/pexels-photo-12153938.jpeg?cs=srgb&dl=pexels-camera-treasure-12153938.jpg&fm=jpg" alt="" class="w-100">
+           </div>
+           <div class="card-body">
+            <h2 class="fw-bold text-center">Haldi Function</h2>
+            <hr>
+            <div class="d-flex justify-content-center text-center pl-5">
+              <small class="border-end me-3 pe-3">
+                <i class="fa-solid fa-hotel ms-3"></i>
+                 <span class="ms-1">Hall</span>
+              </small>
+              <small class="border-end me-3 pe-3">
+                <i class="fa-solid fa-video ms-3"></i>
+                <span class="ms-1">Camera</span>
+              </small>
+              <small>
+                <i class="fa-solid fa-drum ms-3"></i>
+                <span class="ms-1">Dance</span>
+              </small>
+            </div>
+            <p class="fs-4 text-center">Want to See More<br> Click Here....</p>
+            <div class="input-group">
+              <input type="text" class="form-control form-control-lg" placeholder="Enter your Location" >
+              <button class="btn text-white btn-warning">Book Now</button>
+            </div>
+           </div>
+         </div>
+      </div>
+      <div class="col-md-4 py-4">
+        <div class="card shadow program2">
+          <div class="inner">
+            <img src="https://image.wedmegood.com/resized/450X/uploads/images/70b36e2fda524ff0af4f7b753725fadarealwedding/1527946188_LAK_7449.jpg" alt="" class="w-100">
+          </div>
+          <div class="card-body">
+           <h2 class="fw-bold text-center">Dance Night Function</h2>
+           <hr>
+           <div class="d-flex justify-content-center text-center pl-5">
+             <small class="border-end me-3 pe-3">
+               <i class="fa-solid fa-hotel ms-3"></i>
+                <span class="ms-1">Hall</span>
+             </small>
+             <small class="border-end me-3 pe-3">
+               <i class="fa-solid fa-video ms-3"></i>
+               <span class="ms-1">Camera</span>
+             </small>
+             <small>
+               <i class="fa-solid fa-drum ms-3"></i>
+               <span class="ms-1">Dance</span>
+             </small>
+           </div>
+            <p class="fs-4 text-center">Want to See More<br> Click Here....</p>
+           <div class="input-group">
+             <input type="text" class="form-control form-control-lg" placeholder="Enter your Location" >
+             <button class="btn text-white btn-danger">Book Now</button>
+           </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 py-4">
+      <div class="card shadow program3">
+        <div class="inner">
+          <img src="https://images.unsplash.com/photo-1587271339318-2e78fdf79586?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8aW5kaWFuJTIwd2VkZGluZ3xlbnwwfHwwfHw%3D&w=1000&q=80" alt="" class="w-100">
+        </div>
+        <div class="card-body">
+         <h2 class="fw-bold text-center">Wedding Night</h2>
+         <hr>
+         <div class="d-flex justify-content-center text-center pl-5">
+           <small class="border-end me-3 pe-3">
+             <i class="fa-solid fa-hotel ms-3"></i>
+              <span class="ms-1">Hall</span>
+           </small>
+           <small class="border-end me-3 pe-3">
+             <i class="fa-solid fa-video ms-3"></i>
+             <span class="ms-1">Camera</span>
+           </small>
+           <small>
+             <i class="fa-solid fa-drum ms-3"></i>
+             <span class="ms-1">Party</span>
+           </small>
+         </div>
+         <p class="fs-4 text-center">Want to See More<br> Click Here....</p>
+         <div class="input-group">
+          <input type="text" class="form-control form-control-lg" placeholder="Enter your Location" >
+          <button class="btn text-white btn-danger">Book Now</button>
+        </div>
+        </div>
+      </div>
+      </div>
+    </div>
+     </div>
+  </div>
+  <!-- wedding program end -->
+
+  <!-- b'day&anniversary function start -->
+  <div class="container-fluid prg3">
+     <div class="container pt-5">
+    <h1 class="text-center fw-bold wp">Birthday And Anniversary Program</h1>
+    <hr>
+    <div class="row py-5">
+      <div class="col-md-4 py-4">
+         <div class="card shadow program">
+           <div class="inner">
+             <img src="https://images.pexels.com/photos/6800133/pexels-photo-6800133.jpeg?cs=srgb&dl=pexels-cottonbro-studio-6800133.jpg&fm=jpg" alt="" class="w-100">
+           </div>
+           <div class="card-body">
+            <h2 class="fw-bold text-center">Cake Cut</h2>
+            <hr>
+            <div class="d-flex justify-content-center text-center pl-5">
+              <small class="border-end me-3 pe-3">
+                <i class="fa-solid fa-hotel ms-3"></i>
+                 <span class="ms-1">Hall</span>
+              </small>
+              <small class="border-end me-3 pe-3">
+                <i class="fa-solid fa-video ms-3"></i>
+                <span class="ms-1">Camera</span>
+              </small>
+              <small>
+                <i class="fa-solid fa-drum ms-3"></i>
+                <span class="ms-1">Dance</span>
+              </small>
+            </div>
+            <p class="fs-4 text-center">Want to See More<br> Click Here....</p>
+            <div class="input-group">
+              <input type="text" class="form-control form-control-lg" placeholder="Enter your Location" >
+              <button class="btn text-white btn-warning">Book Now</button>
+            </div>
+           </div>
+         </div>
+      </div>
+      <div class="col-md-4 py-4">
+        <div class="card shadow program2">
+          <div class="inner">
+            <img src="https://images.unsplash.com/photo-1516450360452-9312f5e86fc7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8cGFydHl8ZW58MHx8MHx8&w=1000&q=80" alt="" class="w-100">
+          </div>
+          <div class="card-body">
+           <h2 class="fw-bold text-center">Party Night</h2>
+           <hr>
+           <div class="d-flex justify-content-center text-center pl-5">
+             <small class="border-end me-3 pe-3">
+               <i class="fa-solid fa-hotel ms-3"></i>
+                <span class="ms-1">Hall</span>
+             </small>
+             <small class="border-end me-3 pe-3">
+               <i class="fa-solid fa-video ms-3"></i>
+               <span class="ms-1">Camera</span>
+             </small>
+             <small>
+               <i class="fa-solid fa-drum ms-3"></i>
+               <span class="ms-1">Dance</span>
+             </small>
+           </div>
+            <p class="fs-4 text-center">Want to See More<br> Click Here....</p>
+           <div class="input-group">
+             <input type="text" class="form-control form-control-lg" placeholder="Enter your Location" >
+             <button class="btn text-white btn-danger">Book Now</button>
+           </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 py-4">
+      <div class="card shadow program3">
+        <div class="inner">
+          <img src="https://thumbs.dreamstime.com/b/woman-taking-picture-her-friends-dinner-party-group-men-women-posing-photograph-outdoor-dinner-party-145770429.jpg" alt="" class="w-100">
+        </div>
+        <div class="card-body">
+         <h2 class="fw-bold text-center">Treat Time</h2>
+         <hr>
+         <div class="d-flex justify-content-center text-center pl-5">
+           <small class="border-end me-3 pe-3">
+             <i class="fa-solid fa-hotel ms-3"></i>
+              <span class="ms-1">Hall</span>
+           </small>
+           <small class="border-end me-3 pe-3">
+             <i class="fa-solid fa-video ms-3"></i>
+             <span class="ms-1">Camera</span>
+           </small>
+           <small>
+             <i class="fa-solid fa-drum ms-3"></i>
+             <span class="ms-1">Party</span>
+           </small>
+         </div>
+         <p class="fs-4 text-center">Want to See More<br> Click Here....</p>
+         <div class="input-group">
+          <input type="text" class="form-control form-control-lg" placeholder="Enter your Location" >
+          <button class="btn text-white btn-danger">Book Now</button>
+        </div>
+        </div>
+      </div>
+      </div>
+    </div>
+     </div>
+  </div>
+  <!-- b'day&anniversary function end -->
+
+   <!-- footer start -->
+   <footer class="container-fluid bg-info text-light">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4 p-5">
+          <div class="card">
+            <img src="img/eml.png" alt="" class="card-img-top">
+            <div class="card-body">
+              <div class="mt-2">
+                <h3 class="text-uppercase text-info">Subscribe Our Newsletter</h3>
+                <div class="input-group">
+                  <input type="type" class="form-control p-3" placeholder="Your Email">
+                  <button class="btn btn-primary text-light btn-info">SignUp</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-8 p-5">
+          <div class="row">
+            <div class="col-md-4">
+              <h2 class="f1 text-start text-uppercase fw-bold mb-4">Company</h2>
+              <div class="mt-2 f3">
+                <i class="fa-solid fa-chevron-right"></i>
+                <span class="ms-2 f2">About Us</span>
+              </div>
+              <div class="mt-2 f3">
+                <i class="fa-solid fa-chevron-right"></i>
+                <span class="ms-2 f2">Privacy Policy</span>
+              </div>
+              <div class="mt-2 f3">
+                <i class="fa-solid fa-chevron-right"></i>
+                <span class="ms-2 f2">Terms & Conditions</span>
+              </div>
+              <div class="mt-2 f3">
+                <i class="fa-solid fa-chevron-right"></i>
+                <span class="ms-2 f2">Support</span>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <h2 class="f1 text-start text-uppercase fw-bold mb-4">shop</h2>
+              <div class="mt-2 f3">
+                <i class="fa-solid fa-chevron-right"></i>
+                <span class="ms-2 f2">Drinks</span>
+              </div>
+              <div class="mt-2 f3">
+                <i class="fa-solid fa-chevron-right"></i>
+                <span class="ms-2 f2">Gift Cards</span>
+              </div>
+              <div class="mt-2 f3">
+                <i class="fa-solid fa-chevron-right"></i>
+                <span class="ms-2 f2">Locator</span>
+              </div>
+              <div class="mt-2 f3">
+                <i class="fa-solid fa-chevron-right"></i>
+                <span class="ms-2 f2">Dress</span>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <h2 class="f1 text-start text-uppercase fw-bold mb-4">contact us</h2>
+              <div class="mt-2 f3">
+                <i class="fa-solid fa-location-dot"></i>
+                <span class="ms-2 f2">New Street,Zone1,Mp Nagar,Bhopal,India</span>
+              </div>
+              <div class="mt-2 f3">
+                <i class="fa-solid fa-envelope"></i>
+                <span class="ms-2 f2">Ankit123@gmail.com</span>
+              </div>
+              <div class="mt-2 f3">
+                <i class="fa-solid fa-phone-volume"></i>
+                <span class="ms-2 f2">+012 345 67890</span>
+              </div>
+              <div class="mt-4 f4">
+                <a href=""><i class="fa-brands fa-twitter"></i></a>
+                <a href=""><i class="fa-brands fa-facebook-f"></i></a>
+                <a href=""><i class="fa-brands fa-linkedin-in"></i></a>
+                <a href=""><i class="fa-brands fa-instagram"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>  
+    </div>
+  </footer>
+  <div class="container-fluid text-white f5 py-4">
+    <div class="container text-center">
+        <p class="mb-0"><a class="text-secondary text-light fw-bold" href="home.html">Event-Management</a> &nbsp; Designed by <a class="text-secondary  text-light fw-bold" href="">Ankit gautam</a></p>
+    </div>
+</div>
+  <!-- footer end -->
+<script>
+   let preloader=document.getElementById('loading');
+    function myFunction(){
+      preloader.style.display= 'none';
+    }
+</script>  
+</body>
+</html>

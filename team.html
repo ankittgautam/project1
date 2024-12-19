@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Team-Event Management</title>
+     <!--bootstrap css-->
+     <link
+     href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+     rel="stylesheet"
+     integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+     crossorigin="anonymous"
+     />
+   <!--my css-->
+   <link rel="stylesheet" href="css/project.css">
+   <!--icon-->
+   <link rel="icon" href="img/eml.png">
+   <!-- font awesome link -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+   <!-- javascript link -->
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+</head>
+<body onload="myFunction()">
+    <div id="loading"></div>
+    <nav class="navbar navbar-expand-md navbar-dark bg-info fixed-top">
+        <div class="container-fluid">
+          <a href="" class="navbar-brand">
+            <img src="img/eml.png" class="weblogo">
+            <img src="img/b.png" class="moblogo">
+          </a>
+          <!--moblie view-->
+          <button class="navbar-toggler" data-bs-target="#a" data-bs-toggle="collapse">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+      
+          <!--menu -->
+          <div class="navbar-collapse collapse" id="a">
+          <ul class="navbar-nav ms-auto c">
+            <li><a href="home.html" class="nav-link">HOME</a></li>
+            <li><a href="program.html" class="nav-link">PROGRAM</a></li>
+            <li><a href="team.html" class="nav-link">TEAM</a></li>
+            <li><a href="contact.html" class="nav-link">CONTACT US</a></li>
+          </ul>
+          </div> 
+        </div><!-- container-fluid end--> 
+      </nav>
+      <!-- image start -->
+      <div class="card"> 
+        <img src="https://cdn.pixabay.com/photo/2020/07/08/04/12/work-5382501_960_720.jpg" alt="" class="w-100">
+        <div class="img-title">
+          <h2 class="fw-bold">team</h2>
+        </div>
+      </div>
+      <!-- image end -->
+      <!-- team start -->
+      <div class="container-fluid py-5">
+        <div class="container">
+            <div class="section-title position-relative text-center mx-auto mb-5 pb-3" style="max-width: 600px;">
+                <h2 class="text-primary font-secondary">Team Members</h2>
+                <hr>
+            </div>
+            <div class="row g-5">
+                <div class="col-lg-4 col-md-6">
+                    <div class="team-item">
+                        <div class="position-relative overflow-hidden">
+                            <img class="img-fluid w-100 teamdetail" src="https://img.freepik.com/free-photo/portrait-indian-happy-businessman-using-laptop-computer-office_231208-2581.jpg" alt="">
+                            <div class="team-overlay w-100 h-100 position-absolute top-50 start-50 translate-middle d-flex align-items-center justify-content-center">
+                                <div class="d-flex align-items-center justify-content-start">
+                                    <a class="btn btn-lg btn-primary btn-lg-square border-inner rounded-0 mx-1" href="#"><i class="fab fa-twitter fw-normal"></i></a>
+                                    <a class="btn btn-lg btn-primary btn-lg-square border-inner rounded-0 mx-1" href="#"><i class="fab fa-facebook-f fw-normal"></i></a>
+                                    <a class="btn btn-lg btn-primary btn-lg-square border-inner rounded-0 mx-1" href="#"><i class="fab fa-linkedin-in fw-normal"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="bg-dark border-inner text-center p-4">
+                            <h4 class="text-uppercase text-primary">Ankit Gautam</h4>
+                            <p class="text-white m-0">Event Manager</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="team-item">
+                        <div class="position-relative overflow-hidden">
+                            <img class="img-fluid w-100 teamdetail" src="https://media.istockphoto.com/id/638979322/photo/confidence-that-supports-success.jpg?s=612x612&w=0&k=20&c=84nAeUF3sNZyunAiAGapoIsia4NE4YfsNEzzaPM-Sl0=" alt="">
+                            <div class="team-overlay w-100 h-100 position-absolute top-50 start-50 translate-middle d-flex align-items-center justify-content-center">
+                                <div class="d-flex align-items-center justify-content-start">
+                                    <a class="btn btn-lg btn-primary btn-lg-square border-inner rounded-0 mx-1" href="#"><i class="fab fa-twitter fw-normal"></i></a>
+                                    <a class="btn btn-lg btn-primary btn-lg-square border-inner rounded-0 mx-1" href="#"><i class="fab fa-facebook-f fw-normal"></i></a>
+                                    <a class="btn btn-lg btn-primary btn-lg-square border-inner rounded-0 mx-1" href="#"><i class="fab fa-linkedin-in fw-normal"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="bg-dark border-inner text-center p-4">
+                            <h4 class="text-uppercase text-primary">Dewansh Mishra</h4>
+                            <p class="text-white m-0">Information Manager</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="team-item">
+                        <div class="position-relative overflow-hidden">
+                            <img class="img-fluid w-100 teamdetail" src="https://imgstaticcontent.lbb.in/lbbnew/wp-content/uploads/sites/1/2015/07/Women_dj_ayesha_pramanik.jpg" alt="">
+                            <div class="team-overlay w-100 h-100 position-absolute top-50 start-50 translate-middle d-flex align-items-center justify-content-center">
+                                <div class="d-flex align-items-center justify-content-start">
+                                    <a class="btn btn-lg btn-primary btn-lg-square border-inner rounded-0 mx-1" href="#"><i class="fab fa-twitter fw-normal"></i></a>
+                                    <a class="btn btn-lg btn-primary btn-lg-square border-inner rounded-0 mx-1" href="#"><i class="fab fa-facebook-f fw-normal"></i></a>
+                                    <a class="btn btn-lg btn-primary btn-lg-square border-inner rounded-0 mx-1" href="#"><i class="fab fa-linkedin-in fw-normal"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="bg-dark border-inner text-center p-4">
+                            <h4 class="text-uppercase text-primary">DJ Raavi</h4>
+                            <p class="text-white m-0">DJ</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                  <div class="team-item">
+                      <div class="position-relative overflow-hidden">
+                          <img class="img-fluid w-100 teamdetail" src="https://images.unsplash.com/photo-1600565193348-f74bd3c7ccdf?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8Y2hlZnxlbnwwfHwwfHx8MA%3D%3D&w=1000&q=80" alt="">
+                          <div class="team-overlay w-100 h-100 position-absolute top-50 start-50 translate-middle d-flex align-items-center justify-content-center">
+                              <div class="d-flex align-items-center justify-content-start">
+                                  <a class="btn btn-lg btn-primary btn-lg-square border-inner rounded-0 mx-1" href="#"><i class="fab fa-twitter fw-normal"></i></a>
+                                  <a class="btn btn-lg btn-primary btn-lg-square border-inner rounded-0 mx-1" href="#"><i class="fab fa-facebook-f fw-normal"></i></a>
+                                  <a class="btn btn-lg btn-primary btn-lg-square border-inner rounded-0 mx-1" href="#"><i class="fab fa-linkedin-in fw-normal"></i></a>
+                              </div>
+                          </div>
+                      </div>
+                      <div class="bg-dark border-inner text-center p-4">
+                          <h4 class="text-uppercase text-primary">Harsh Tripathi</h4>
+                          <p class="text-white m-0">Master Chef</p>
+                      </div>
+                  </div>
+              </div>
+              <div class="col-lg-4 col-md-6">
+                  <div class="team-item">
+                      <div class="position-relative overflow-hidden">
+                          <img class="img-fluid w-100 teamdetail" src="https://st.hzcdn.com/simgs/06a1831c0f843773_4-0474/home-design.jpg" alt="">
+                          <div class="team-overlay w-100 h-100 position-absolute top-50 start-50 translate-middle d-flex align-items-center justify-content-center">
+                              <div class="d-flex align-items-center justify-content-start">
+                                  <a class="btn btn-lg btn-primary btn-lg-square border-inner rounded-0 mx-1" href="#"><i class="fab fa-twitter fw-normal"></i></a>
+                                  <a class="btn btn-lg btn-primary btn-lg-square border-inner rounded-0 mx-1" href="#"><i class="fab fa-facebook-f fw-normal"></i></a>
+                                  <a class="btn btn-lg btn-primary btn-lg-square border-inner rounded-0 mx-1" href="#"><i class="fab fa-linkedin-in fw-normal"></i></a>
+                              </div>
+                          </div>
+                      </div>
+                      <div class="bg-dark border-inner text-center p-4">
+                          <h4 class="text-uppercase text-primary">Shubham Rana</h4>
+                          <p class="text-white m-0">Decoration Expert</p>
+                      </div>
+                  </div>
+              </div>
+              <div class="col-lg-4 col-md-6">
+                  <div class="team-item">
+                      <div class="position-relative overflow-hidden">
+                          <img class="img-fluid w-100 teamdetail" src="https://as2.ftcdn.net/v2/jpg/02/79/90/29/1000_F_279902906_hyGZ15wUjiyINsEsL8AIJdiRxMl95l9c.jpg" alt="">
+                          <div class="team-overlay w-100 h-100 position-absolute top-50 start-50 translate-middle d-flex align-items-center justify-content-center">
+                              <div class="d-flex align-items-center justify-content-start">
+                                  <a class="btn btn-lg btn-primary btn-lg-square border-inner rounded-0 mx-1" href="#"><i class="fab fa-twitter fw-normal"></i></a>
+                                  <a class="btn btn-lg btn-primary btn-lg-square border-inner rounded-0 mx-1" href="#"><i class="fab fa-facebook-f fw-normal"></i></a>
+                                  <a class="btn btn-lg btn-primary btn-lg-square border-inner rounded-0 mx-1" href="#"><i class="fab fa-linkedin-in fw-normal"></i></a>
+                              </div>
+                          </div>
+                      </div>
+                      <div class="bg-dark border-inner text-center p-4">
+                          <h4 class="text-uppercase text-primary">Yash Thakur</h4>
+                          <p class="text-white m-0">Security Manager</p>
+                      </div>
+                  </div>
+              </div>
+            </div>
+        </div>
+      </div>
+      <!-- team end -->
+
+          <!-- footer start -->
+   <footer class="container-fluid bg-info text-light">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4 p-5">
+          <div class="card">
+            <img src="img/eml.png" alt="" class="card-img-top">
+            <div class="card-body">
+              <div class="mt-2">
+                <h3 class="text-uppercase text-info">Subscribe Our Newsletter</h3>
+                <div class="input-group">
+                  <input type="type" class="form-control p-3" placeholder="Your Email">
+                  <button class="btn btn-primary text-light btn-info">SignUp</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-8 p-5">
+          <div class="row">
+            <div class="col-md-4">
+              <h2 class="f1 text-start text-uppercase fw-bold mb-4">Company</h2>
+              <div class="mt-2 f3">
+                <i class="fa-solid fa-chevron-right"></i>
+                <span class="ms-2 f2">About Us</span>
+              </div>
+              <div class="mt-2 f3">
+                <i class="fa-solid fa-chevron-right"></i>
+                <span class="ms-2 f2">Privacy Policy</span>
+              </div>
+              <div class="mt-2 f3">
+                <i class="fa-solid fa-chevron-right"></i>
+                <span class="ms-2 f2">Terms & Conditions</span>
+              </div>
+              <div class="mt-2 f3">
+                <i class="fa-solid fa-chevron-right"></i>
+                <span class="ms-2 f2">Support</span>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <h2 class="f1 text-start text-uppercase fw-bold mb-4">shop</h2>
+              <div class="mt-2 f3">
+                <i class="fa-solid fa-chevron-right"></i>
+                <span class="ms-2 f2">Drinks</span>
+              </div>
+              <div class="mt-2 f3">
+                <i class="fa-solid fa-chevron-right"></i>
+                <span class="ms-2 f2">Gift Cards</span>
+              </div>
+              <div class="mt-2 f3">
+                <i class="fa-solid fa-chevron-right"></i>
+                <span class="ms-2 f2">Locator</span>
+              </div>
+              <div class="mt-2 f3">
+                <i class="fa-solid fa-chevron-right"></i>
+                <span class="ms-2 f2">Dress</span>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <h2 class="f1 text-start text-uppercase fw-bold mb-4">contact us</h2>
+              <div class="mt-2 f3">
+                <i class="fa-solid fa-location-dot"></i>
+                <span class="ms-2 f2">New Street,Zone1,Mp Nagar,Bhopal,India</span>
+              </div>
+              <div class="mt-2 f3">
+                <i class="fa-solid fa-envelope"></i>
+                <span class="ms-2 f2">Ankit123@gmail.com</span>
+              </div>
+              <div class="mt-2 f3">
+                <i class="fa-solid fa-phone-volume"></i>
+                <span class="ms-2 f2">+012 345 67890</span>
+              </div>
+              <div class="mt-4 f3">
+                <a href=""><i class="fa-brands fa-twitter"></i></a>
+                <a href=""><i class="fa-brands fa-facebook-f"></i></a>
+                <a href=""><i class="fa-brands fa-linkedin-in"></i></a>
+                <a href=""><i class="fa-brands fa-instagram"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>  
+    </div>
+  </footer>
+  <div class="container-fluid text-white f5 py-4">
+    <div class="container text-center">
+        <p class="mb-0"><a class="text-secondary text-light fw-bold" href="home.html">Event-Management</a> &nbsp; Designed by <a class="text-secondary  text-light fw-bold" href="">Ankit gautam</a></p>
+    </div>
+</div>
+  <!-- footer end -->
+
+    <script>
+        let preloader=document.getElementById('loading');
+         function myFunction(){
+           preloader.style.display= 'none';
+         }
+    </script>     
+</body>
+</html>
